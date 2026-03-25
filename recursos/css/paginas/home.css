@@ -1,0 +1,269 @@
+
+/* BLOCO DE QUEM SOU EU */
+
+.quem-sou-eu{
+    width: 100%;
+    display: block;
+    background-image: url('../../imagens/fundo-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.quem-sou-eu .conteudo{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.quem-sou-eu .conteudo .img{
+    width: 100%;
+}
+.quem-sou-eu .conteudo .img img{
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.quem-sou-eu .conteudo .texto{
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.quem-sou-eu .conteudo  .texto h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 65px;
+    position: relative;
+}
+.quem-sou-eu .conteudo  .texto h2::after{
+    width: 150px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: '';
+}
+.quem-sou-eu .conteudo .descricao{
+    margin-bottom: 60px;
+    width: 100%;
+    display: block;
+}
+.quem-sou-eu .conteudo .descricao p{
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+}
+@media only screen and (min-width: 1024px){
+    .quem-sou-eu .conteudo .img{
+    width: 54%;
+    }
+    .quem-sou-eu .conteudo .texto{
+    width: 45%;
+    margin:0px 0px 0px -60px; 
+    }
+}
+
+
+
+
+/* BLOCO DE EVENTOS */
+.eventos{
+    background-color: #fff;
+    padding: 115px 0px;
+    width: 100%;
+    display: block;
+}
+.eventos .conteudo{
+    width: 100%;
+    display: block;
+}
+.eventos .conteudo .itens{
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+}
+.eventos .conteudo .itens .item{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.eventos .conteudo .itens .item:last-child{
+    margin-bottom: 0px;
+}
+.eventos .conteudo .itens .item .img{
+    width: 100%;
+}
+.eventos .conteudo .itens .item .img img{
+    width: auto;
+    max-width: 100%;
+    display:block;
+    margin: 0 auto;
+}
+.eventos .conteudo .itens .item .texto{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.eventos .conteudo .itens .item  .texto h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 45px;
+    color: #000;
+    position: relative;
+}
+.eventos .conteudo .itens .item  .texto h3::after{
+    width: 150px;
+    height: 5px;
+    background-color:#000;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    content: '';
+}
+.eventos .conteudo .itens .item .descricao{
+    width: 100%;
+    display: block;
+}
+.eventos .conteudo .itens .item .descricao p{
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: block;
+    color: #000;
+}
+@media only screen and (min-width: 1024px){
+    .eventos .conteudo .itens .item .img{
+    width: 50%;
+    }
+    .eventos .conteudo .itens .item .texto{
+    width: 45%;
+    margin-bottom: 0px;
+    }
+    .eventos .conteudo .itens .item:nth-child(2n+2) .img{
+        order: 0;
+    }
+    .eventos .conteudo .itens .item:nth-child(2n+2) .texto{
+        order: 1;
+
+    }
+}
+
+/* NOSSOS CURSOS */
+.cursos{
+    width: 100%;
+    display: block;
+    background-image: url('../../imagens/fundo-cursos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0px 70px 0px;
+}
+.cursos .conteudo .itens{
+    margin-top: 70px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cursos .conteudo .itens .item{
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 50px;
+}
+.cursos .conteudo .itens .item .img{
+    width: 100%;
+    display: block;;
+}
+.cursos .conteudo .itens .item .img img{
+    width: 100%;
+    display: block;
+}
+.cursos .conteudo .itens .item .titulo {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 18px;
+}
+@media only screen and (min-width: 768px){
+.cursos .conteudo .itens .item {
+    width: 48%;
+}
+}
+@media only screen and (min-width: 1024px){
+.cursos .conteudo .itens .item {
+    width: 24%;
+}
+}
+
+/* videos */
+.videos{
+    background-color: #fff;
+    padding: 115px 0px;
+    width: 100%;
+    display: block;
+}
+.videos.conteudo{
+    width: 100%;
+    display: block;
+}
+.videos .conteudo .itens{
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+}
+.videos .conteudo .itens .item{
+    width: 100%;
+    display: block;
+}
+.videos .conteudo .itens .item .img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.videos .conteudo .itens .item .img img{
+    width: 100%;
+    display: block;
+}
+.videos .conteudo .itens .item .img i{
+    font-size: 70px;
+    position: absolute;
+    color: red;
+    
+}
+.videos .conteudo .itens .item .titulo{
+    width: 100%;
+    display: block;
+    color: #000;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.videos .conteudo .botao{
+    width: 100%;
+    display: block;
+    margin-top: 80px;
+}
+.videos .conteudo .botao .btn{
+    width: max-content;
+    border-color: #000;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+}
+.videos .conteudo .botao .btn:hover{
+    border-color: #000;
+    color: #fff;
+    background-color: #000;
+}
