@@ -27,7 +27,7 @@ body {
 	line-height: 1;
 	background-color: #000;
 	color: #fff;
-	 font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 a{
 	color: #fff;
@@ -47,6 +47,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+input, textarea, button{
+	outline: none;
+	font-family: "Montserrat", sans-serif;
 }
 *,*:before,*:after{
 	box-sizing: border-box;
@@ -68,7 +72,12 @@ table {
 	padding: 15px 40px;
 	line-height: 1;	
 	transition: .4s;
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
 }
+
 .btn:hover{
 	background-color: #fff;
 	color: #000;

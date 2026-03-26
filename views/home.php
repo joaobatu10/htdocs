@@ -242,4 +242,39 @@
         </div>
     </div>
 </section>
+<section class="contatos">
+    <div class="container">
+        <div class="conteudo">
+            <div class="form">
+                <h2>Fale Comigo</h2>
+                <form method="POST" action="#">
+                    <input type="text" placeholder="Nome" name="nome">
+                    <input type="text" placeholder="Telefone" name="telefone">
+                    <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                    <button class="btn" type="submit">Enviar Mensagem</button>
+
+                </form>
+            </div>
+            <div class="contato">
+                <h2>Contatos</h2>
+                <h3>Telefone:</h3>
+                <a href="#">
+                    <i class="fab fa-whatsapp"></i> +55 55991942361
+                </a>
+                <h3>Email:</h3>
+                <a href="#">
+                    <i class="fa-regular fa-envelope"></i> cadorbatujoaovitor@gmail.com
+                </a>
+                <h3>Siga-me:</h3>
+                <div class="redes-sociais">
+         		 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+          		<a href="#"><i class="fa-brands fa-youtube"></i></a>
+        		</div>
+            </div> 
+
+        </div>
+    </div>
+</section>
+    
 </main>
