@@ -1,5 +1,5 @@
 <main>
-    <section class="quem-sou-eu">
+    <section class="quem-sou-eu" id="quem-sou-eu">
         <div class="container">
             <div class="conteudo">
                 
@@ -24,12 +24,12 @@
                         seguras e escaláveis, que unam funcionalidade e boa experiência do usuário, 
                         contribuindo para o crescimento de pessoas e organizações através da tecnologia.</p>
                     </div> 
-                    <a class="btn" href="#">Veja o vídeo</a>
+                    <a class="btn" href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">Veja o vídeo</a>
                 </div> 
             </div> 
         </div> 
     </section>
-    <section class="eventos">
+    <section class="eventos" id="eventos">
         <div class="container">
             <div class="conteudo">
                 <h2 class="titulo-principal black">Eventos</h2>
@@ -92,7 +92,7 @@
             </div>
         </div>
     </section>
-    <section class="cursos">
+    <section class="cursos" id="cursos">
         <div class="container">
             <div class="conteudo">
                 <h2 class="titulo_principal">Nossos Cursos</h2>
@@ -125,124 +125,127 @@
             </div>
         </div>
 </section>
-<section class="videos">
+<section class="videos" id="videos">
     <div class="container">
         <div class="conteudo">
             <h2 class="titulo-principal black">Videos</h2>
             <div class="itens">
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
+                </div>
+               <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
+                    <div class="img">
+                        <img src="../recursos/imagens/video-youtube.png">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
                 <div class="item">
+                    <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" target="_blank">
                     <div class="img">
                         <img src="../recursos/imagens/video-youtube.png">
                         <i class="fa-brands fa-youtube"></i>
                     </div>
                     <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
-                </div>
-                <div class="item">
-                    <div class="img">
-                        <img src="../recursos/imagens/video-youtube.png">
-                        <i class="fa-brands fa-youtube"></i>
-                    </div>
-                    <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
-                </div>
-                <div class="item">
-                    <div class="img">
-                        <img src="../recursos/imagens/video-youtube.png">
-                        <i class="fa-brands fa-youtube"></i>
-                    </div>
-                    <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
-                </div>
-                <div class="item">
-                    <div class="img">
-                        <img src="../recursos/imagens/video-youtube.png">
-                        <i class="fa-brands fa-youtube"></i>
-                    </div>
-                    <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
-                </div>
-                <div class="item">
-                    <div class="img">
-                        <img src="../recursos/imagens/video-youtube.png">
-                        <i class="fa-brands fa-youtube"></i>
-                    </div>
-                    <h3 class="titulo">3 Técnicas poderosas de PNL para voce usar agora</h3>
+                    </a>
                 </div>
             </div>
             <div class="botao">
-                <a href="#" class="btn" target="_blank">INSCREVA-SE</a>
+                <a href="https://www.youtube.com/watch?v=kgQyd0kS2as&list=RDMMkgQyd0kS2as&start_radio=1" class="btn" target="_blank">INSCREVA-SE</a>
             </div>
         </div>
     </div>
 </section>
-<section class="contatos">
+<section class="contatos" id="fale-comigo">
     <div class="container">
         <div class="conteudo">
             <div class="form">
@@ -258,23 +261,21 @@
             <div class="contato">
                 <h2>Contatos</h2>
                 <h3>Telefone:</h3>
-                <a href="#">
+                <a href="tel:+55991942361">
                     <i class="fab fa-whatsapp"></i> +55 55991942361
                 </a>
                 <h3>Email:</h3>
-                <a href="#">
+                <a href="mailto:cadorbatujoaovitor@gmail.com">
                     <i class="fa-regular fa-envelope"></i> cadorbatujoaovitor@gmail.com
                 </a>
                 <h3>Siga-me:</h3>
                 <div class="redes-sociais">
-         		 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          		<a href="#"><i class="fa-brands fa-instagram"></i></a>
-          		<a href="#"><i class="fa-brands fa-youtube"></i></a>
+         		<a href="https://www.facebook.com/joaovitor.cadorbatu.3/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          		<a href="https://www.instagram.com/joao_cador/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          		<a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         		</div>
             </div> 
-
         </div>
     </div>
-</section>
-    
+</section> 
 </main>

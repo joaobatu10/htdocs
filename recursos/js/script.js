@@ -35,4 +35,19 @@ $(document).ready(function(){
         }
     ]
     });
+
+    $('a').on('click', function(){
+        if($(this).is('[href]')){
+            var link = $(this).attr('href');
+
+            if(link.indexOf('#') > -1){
+                event.preventDefault();
+                $('.menu-lateral').removeClass('active');
+                $('.nav-bar i fa-xmark').toggleClass(' fa-xmark fa-bars-staggered');
+                $('html, body').animate({
+                    scrollTop: $(link).offset().top - 50}, 1500);
+            }
+        }
+    });
+
 });

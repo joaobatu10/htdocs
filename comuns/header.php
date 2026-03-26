@@ -25,18 +25,18 @@
       			</div>
       			<div class="menu-lateral">
        			<ul class="nav">
-          		<li><a href="#">Quem sou eu</a></li>
-          		<li><a href="#">Eventos</a></li>
-          		<li><a href="#">Cursos</a></li>
-          		<li><a href="#">Vídeos</a></li>
-         		 <li><a href="#">Fale comigo</a></li>
+          		<li><a href="#quem-sou-eu">Quem sou eu</a></li>
+          		<li><a href="#eventos">Eventos</a></li>
+          		<li><a href="#cursos">Cursos</a></li>
+          		<li><a href="#videos">Vídeos</a></li>
+         		 <li><a href="#fale-comigo">Fale comigo</a></li>
         		</ul>
 
         		<div class="redes-sociais">
           		<p>Siga-me:</p>
-         		 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          		<a href="#"><i class="fa-brands fa-instagram"></i></a>
-          		<a href="#"><i class="fa-brands fa-youtube"></i></a>
+         		<a href="https://www.facebook.com/joaovitor.cadorbatu.3/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          		<a href="https://www.instagram.com/joao_cador/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          		<a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         		</div>
      		</div>
 			<div class="nav-bar">
