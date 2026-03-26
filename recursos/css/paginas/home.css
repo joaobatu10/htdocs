@@ -225,6 +225,7 @@
 .videos .conteudo .itens .item{
     width: 100%;
     display: block;
+    padding: 0px 15px;
 }
 .videos .conteudo .itens .item .img{
     width: 100%;
@@ -241,6 +242,17 @@
     font-size: 70px;
     position: absolute;
     color: red;
+    z-index: 1;
+}
+.videos .conteudo .itens .item .img i:after{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    content: ' ';
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    z-index: -1;
     
 }
 .videos .conteudo .itens .item .titulo{

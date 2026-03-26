@@ -74,7 +74,7 @@ table {
 	color: #000;
 }
 .titulo-principal{
-	font-size: 48px;
+	font-size: 36px;
 	font-weight: 500;
 	font-style: italic;
 	display: block;
@@ -114,4 +114,37 @@ table {
 	bottom: -10px;
 	left: 0px;
 	content: ' ';
+}
+@media only screen and (min-width: 1024px){
+	.titulo-principal{
+		font-size: 48px;
+	}
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: -52px;
+	flex-wrap: wrap;
+}
+.slick-dots li{
+	margin-right: 9px;
+}
+.slick-dots li:last-child{
+	margin-right: 0px;
+}
+.slick-dots li button{
+	background-color: white;
+	border: 1px solid #000;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	color: #fff;
+	cursor: pointer;
+	overflow: hidden;
+}
+.slick-dots li.slick-active button{
+	background-color: #000;
+	color: #000;
 }
