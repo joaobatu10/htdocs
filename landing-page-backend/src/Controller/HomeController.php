@@ -15,7 +15,17 @@ final class HomeController
         $args
     ) {
 
-        $data['informacoes'] = "";
+        $data['informacoes'] = array(
+            'title' => 'landing Page Projeto 01 - All Ain',
+            'description' => 'Essa é a descrição da minha landing page',
+            'author' => 'João Vitor Cador Batu',
+            'url' => URL_BASE. '',
+            'site_name' => 'All Ain',
+            'image' => URL_BASE. 'resources/imagens/galeria-eventos.png',
+            'image_alt' => 'Eventos'
+            );
+
+            
         $renderer = new PhpRenderer(DIRETORIO_TEMPLATES);
         return $renderer->render($response, "home.php", $data);
     }

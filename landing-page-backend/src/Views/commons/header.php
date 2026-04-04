@@ -13,18 +13,18 @@
     <meta name="url" content="<?=URL_BASE?>" />
     
     <meta property="og:locale" content="pt_BR" />
-    <meta property="og:site_name" content="" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="<?=$data['informacoes']['site_name']?>" />
+    <meta property="og:title" content="<?=$data['informacoes']['title']?>" />
+    <meta property="og:description" content="<?=$data['informacoes']['description']?>" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<?=URL_BASE?>" />
-    <meta property="og:image" content="" />
-    <meta property="og:image:alt" content="" />
+    <meta property="og:image" content="<?=$data['informacoes']['image']?>" />
+    <meta property="og:image:alt" content="<?=$data['informacoes']['image_alt']?>" />
 
-    <link rel="icon" href="" type="image/x-icon">
-    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="icon" href="<?=URL_BASE?>resources/imagens/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?=URL_BASE?>resources/imagens/logo.png" type="image/x-icon" />
 
-    <title><?=$data['informacoes']?></title>
+    <title><?=$data['informacoes']['title']?></title>
 
 	<link href="<?=URL_BASE?>resources/css/fonts/fontawesome/css/all.min.css?v=<?=time()?>" rel="stylesheet"/>
     <link href="<?=URL_BASE?>resources/css/css.css?v=<?=time()?>" rel="stylesheet"/>
